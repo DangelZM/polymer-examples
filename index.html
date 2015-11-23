@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <title>Polymer examples</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="elements/elements.html">
 </head>
-<body>
-    <h1>Polymer examples</h1>
+<body unresolved class="fullbleed layout vertical">
+    <template is="dom-bind" id="app">
+        <style>
+            .container {
+                padding: 15px;
+                background: #efefef;
+            }
+            #page-holder {
+                padding: 15px;
+                background: #fff;
+            }
+        </style>
+        <paper-header-panel id="mainContainer">
+            <paper-toolbar id="mainToolbar">
+                <div>Polymer examples</div>
+            </paper-toolbar>
+            <div class="fit container">
+                <paper-material id="page-holder" class="layout vertical">
+                    <h1>Polymer example content</h1>
+                </paper-material>
+            </div>
+        </paper-header-panel>
+    </template>
 </body>
 </html>

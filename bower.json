@@ -1,0 +1,16 @@
+{
+  "name": "polymer examples",
+  "homepage": "https://github.com/DangelZM/polymer-examples",
+  "authors": [
+    "Ivan Zmerzlyi <dangelzm@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#~1.0.4",
+    "paper-elements": "PolymerElements/paper-elements#~1.0.6"
+  }
+}
