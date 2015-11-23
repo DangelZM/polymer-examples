@@ -1,2 +1,2 @@
-# polymer-examples
+# Polymer examples
 Polymer examples
